@@ -1,0 +1,121 @@
+body{
+    background:limegreen;
+}
+
+.container{
+    width: 80%;
+    height: 100%;
+    display: inline-flexbox;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    h1{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        color: white;
+    }
+    .myClass{
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 25px;
+        border: 3px solid green;
+        border-radius: 5%;
+        width: 200px;
+        height: 20px;
+    }
+    .primaryBtn{
+        width: 200px;
+        background-color: rgb(4, 79, 4);
+        height: 25px;
+        color: whitesmoke;
+        border: none;
+        border-radius: 12%;
+    }
+    .primaryBtn:hover{
+        background: red;
+    }
+    .Selectfilter{
+        display: flex;
+        justify-content:flex-end;
+    }
+    
+    input:hover{
+        border-color: aqua;
+    }
+    
+
+}
+
+.todoResult{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px
+}
+
+.todo-card{
+    display: grid;
+    width: 280px;
+    height: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    gap: 10px;
+    background-color:rgb(0, 139, 14);
+    color: white;
+     input {
+        border:none;
+        background: none;
+        color: yellow;
+        font-weight: bolder;
+        font-style: italic;
+    }
+   
+}
+.btnClass{
+    display: flex;
+    justify-content: flex-end;
+    
+    gap: 25px;
+    .editBtn{
+        width:70px;
+        padding: 8px;
+        background: yellow;
+        border: none;
+        border-radius: 10px;
+        color: black;
+    }
+    .deleteBtn{
+        width: 70px;
+        padding: 8px;
+        background: red;
+        border: none;
+        border-radius: 10px;
+        color: white;
+    }
+}
+.editBtn:hover{
+    background: pink;
+}
+.deleteBtn:hover{
+    background: orange;
+}
+
+.seleClas1{
+   background-color: red;
+   color: white;
+}
+
+   
+.select-Not Completed {
+    background-color: red;
+  }
+  
+  .select-Completed {
+    background-color: green;
+  }
+  
+  .select-All {
+    background-color: blue;
+  }
